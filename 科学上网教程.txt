@@ -1,0 +1,33 @@
+﻿# 科学上网教程
+**服务器选择Centos 6x64**
+1. 锐速更换内核：
+
+```
+rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm
+```
+
+```
+rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force
+```
+
+2. reboot
+
+3. 
+```
+ wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
+
+4.  安装**锐速**
+
+5.  安装libsodium(chacha20)
+
+6.  安装ShadowSocksR
+---
+
+
+ **配置后的相关信息：**
+[image:621673B1-4C4A-47F4-8929-74A5C3399C1D-2475-00002E11695EDC5F/FA56A9C1-5819-4B24-A10B-4EB843541D31.png]
+---
+相关链接：
+[服务器网址，价格和可靠性都不错](https://my.vultr.com)
+[ping测试网站，用来检测ip地址是否被黑](http://ping.chinaz.com/)
